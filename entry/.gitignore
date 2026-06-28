@@ -1,0 +1,7 @@
+
+· GITIGNORE
+node_modules/
+.env
+data/contacts.json
+sounds/
+ 
