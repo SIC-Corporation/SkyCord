@@ -102,5 +102,5 @@ client.on('voiceStateUpdate', async (oldState, newState) => {
   }
 });
 
-require('dotenv').config();
-client.login(process.env.DISCORD_TOKEN);
+const http = require('http');
+http.createServer((req, res) => res.end('SkyCord is online!')).listen(8080);
